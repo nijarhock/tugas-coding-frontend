@@ -1,0 +1,29 @@
+.main-sidebar .sidebar-menu li ul.dropdown-menu.open-menu {
+  display: block !important;
+}
+
+.main-sidebar .sidebar-menu li a.active-dropdown:after {
+  content: "\f0d7" !important;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+  font-size: 12px;
+  transition: all 1s;
+}
+
+.gambar {
+  width: 100px;
+  height: 100px;
+}
+
+.gambar2 {
+  width: 200px;
+  height: 200px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
